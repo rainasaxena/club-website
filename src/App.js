@@ -29,8 +29,8 @@ function App() {
           <Route exact path='/founding-members' element={<Founding />} />
           <Route exact path='/board-members' element={<BoardMembers/>} />
         </Routes>
-        {/* <Gallery/>
-        <JoinUs/> */}
+        <Gallery/>
+        <JoinUs/>
         
       </div>
     </Router>
