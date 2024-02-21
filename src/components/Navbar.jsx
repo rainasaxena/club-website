@@ -41,9 +41,9 @@ const Navbar = () => {
                         {item.label}
                       </a>
                       {showDropdown && (
-                        <ul className="flex flex-col gap-2 md:gap-3 p-3 h-max w-24 md:w-28 text-sm md:text-lg absolute mt-0 bg-darkblue shadow-md rounded-md">
+                        <ul className="flex flex-col gap-2 md:gap-3 p-2 h-max w-24 md:w-28 text-sm md:text-lg absolute mt-0 bg-darkblue shadow-md rounded-md">
                           {item.dropdownLinks.map((dropdownItem) => (
-                            <li key={dropdownItem.label}>
+                            <li key={dropdownItem.label} className="hover:bg-grey hover:text-blue rounded transition-all">
                               <a href={dropdownItem.href}>{dropdownItem.label}</a>
                             </li>
                           ))}
