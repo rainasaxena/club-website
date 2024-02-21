@@ -28,6 +28,30 @@ const Team = () => {
         ))}
       </div>
 
+      <div className='lg:flex lg:flex-row md:m-36 md:flex-col sm:flex-row sm:m-4 justify-items-center'>
+        {details.map((item, index) => (
+          <div key={index} className='lg:w-1/3 p-4'>
+            <div className='flex flex-col bg-teal rounded-lg text-center h-80 w-70 items-center justify-center'>
+              <div className='bg-grey rounded-full w-24 h-24 mx-auto mb-2' />
+              <h1 className='font-semibold md:text-2xl sm:text-sm'>{item.name}</h1>
+              <h2 className='font-semibold'>{item.post}</h2>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className='lg:flex lg:flex-row md:m-36 md:flex-col sm:flex-row sm:m-4 justify-items-center'>
+        {details.map((item, index) => (
+          <div key={index} className='lg:w-1/3 p-4'>
+            <div className='flex flex-col bg-teal rounded-lg text-center h-80 w-70 items-center justify-center'>
+              <div className='bg-grey rounded-full w-24 h-24 mx-auto mb-2' />
+              <h1 className='font-semibold md:text-2xl sm:text-sm'>{item.name}</h1>
+              <h2 className='font-semibold'>{item.post}</h2>
+            </div>
+          </div>
+        ))}
+      </div>
+
       
 
       <div className="flex justify-center gap-10">
