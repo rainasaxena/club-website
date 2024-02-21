@@ -20,7 +20,7 @@ const Team = () => {
       <div className='flex flex-wrap'>
         {details.map((item, index) => (
           <div key={index} className='w-1/5 p-4'>
-            <div className='flex flex-col bg-teal rounded-lg text-center h-80 w-70 items-center justify-center'>
+            <div className='flex flex-col flex-wrap bg-teal rounded-lg text-center h-80 w-70 items-center justify-center'>
               <div className='bg-grey rounded-full w-24 h-24 mx-auto mb-2' />
               <h1 className='font-semibold md:text-2xl sm:text-sm'>{item.name}</h1>
               <h2 className='font-semibold'>{item.post}</h2>

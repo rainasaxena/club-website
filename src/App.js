@@ -22,15 +22,15 @@ function App() {
         <About />
         <Department />
         <Events />
-        <Team />
+        <Team /> 
         <Routes>
           <Route exact path='/ffcs21' element={<FFCS21 />} />
           <Route exact path='/ffcs22' element={<FFCS22 />} />
           <Route exact path='/founding-members' element={<Founding />} />
           <Route exact path='/board-members' element={<BoardMembers/>} />
         </Routes>
-        <Gallery/>
-        <JoinUs/>
+        {/* <Gallery/>
+        <JoinUs/> */}
         
       </div>
     </Router>

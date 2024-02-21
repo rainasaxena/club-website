@@ -19,7 +19,7 @@ const bubbleStyle = {
 const Events = () => {
   return (
     <div id="events-container" className='h-[100vh]'>
-    <h1 className='text-pink text-4xl font-semibold mb-[20px]'>EVENTS</h1>
+    <h1 className='text-lg font-semibold text-pink md:text-4xl mb-[20px]'>EVENTS</h1>
 
     <Timeline position='alternate'>
       <TimelineItem>
