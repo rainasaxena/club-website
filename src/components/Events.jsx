@@ -7,10 +7,10 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
 const bubbleStyle = {
-  backgroundColor: '#E1E1E1',
-  margin:'6px',
-  height:'100px',
-//   width:'5px',
+  backgroundColor: '#149f98',
+  margin: '6px',
+  height: '100px',
+  //   width:'5px',
   padding: '10px', // Adjust the padding to control the size of the bubble
   borderRadius: '8px', // Add rounded corners for a bubble effect
   color: '#fff', // Text color inside the bubble
@@ -18,91 +18,107 @@ const bubbleStyle = {
 
 const Events = () => {
   return (
-    <div id="events-container" className='h-[100vh]'>
-    <h1 className='text-lg font-semibold text-pink md:text-4xl mb-[20px]'>EVENTS</h1>
+    <div id="events-container" className='mb-32 px-40'>
+      <h1 className='text-lg font-semibold text-pink md:text-4xl mb-[20px]'>EVENTS</h1>
 
-    <Timeline position='alternate'>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot
-            sx={{
-              backgroundColor: '#149F98',
-              width: '50px',
-              height: '50px',
-            }}
-          />
-          <TimelineConnector
-            sx={{
-              backgroundColor: '#149F98',
-              width: '20px',
-              height: '12px',
-            }}
-          />
-        </TimelineSeparator>
-        <TimelineContent sx={bubbleStyle}>
-          City A
-        </TimelineContent>
-      </TimelineItem>
+      <Timeline position='alternate'>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot
+              sx={{
+                backgroundColor: '#149F98',
+                width: '50px',
+                height: '50px',
+              }}
+            />
+            <TimelineConnector
+              sx={{
+                backgroundColor: '#149F98',
+                width: '20px',
+                height: '12px',
+              }}
+            />
+          </TimelineSeparator>
+          <TimelineContent sx={bubbleStyle}>
+            <div>
+              <h1 className='text-[#0F1922] font-bold text-xl'>City A</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque architecto ut laudantium quis at quisquam eos atque sapiente soluta!
+              </p>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
 
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector
-            sx={{
-              backgroundColor: '#149F98',
-              width: '20px',
-              height: '12px',
-            }}
-          />
-        </TimelineSeparator>
-        <TimelineContent sx={bubbleStyle}>
-          City B
-        </TimelineContent>
-      </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineConnector
+              sx={{
+                backgroundColor: '#149F98',
+                width: '20px',
+                height: '12px',
+              }}
+            />
+          </TimelineSeparator>
+          <TimelineContent sx={bubbleStyle}>
+            <div>
+              <h1 className='text-[#0F1922] font-bold text-xl'>City A</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque architecto ut laudantium quis at quisquam eos atque sapiente soluta!
+              </p>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
 
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector
-            sx={{
-              backgroundColor: '#149F98',
-              width: '20px',
-              height: '12px',
-            }}
-          />
-        </TimelineSeparator>
-        <TimelineContent sx={bubbleStyle}>
-          City C
-        </TimelineContent>
-      </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineConnector
+              sx={{
+                backgroundColor: '#149F98',
+                width: '20px',
+                height: '12px',
+              }}
+            />
+          </TimelineSeparator>
+          <TimelineContent sx={bubbleStyle}>
+            <div>
+              <h1 className='text-[#0F1922] font-bold text-xl'>City A</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque architecto ut laudantium quis at quisquam eos atque sapiente soluta!
+              </p>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
 
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector
-            sx={{
-              backgroundColor: '#149F98',
-              width: '20px',
-              height: '12px',
-            }}
-          />
-          <TimelineDot
-            sx={{
-              backgroundColor: '#149F98',
-              width: '50px',
-              height: '50px',
-            }}
-          />
-        </TimelineSeparator>
-        <TimelineContent sx={bubbleStyle}>
-          City C
-        </TimelineContent>
-
-        
-      </TimelineItem>
-      
-
-
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineConnector
+              sx={{
+                backgroundColor: '#149F98',
+                width: '20px',
+                height: '12px',
+              }}
+            />
+            <TimelineDot
+              sx={{
+                backgroundColor: '#149F98',
+                width: '50px',
+                height: '50px',
+              }}
+            />
+          </TimelineSeparator>
+          <TimelineContent sx={bubbleStyle}>
+            <div>
+              <h1 className='text-[#0F1922] font-bold text-xl'>City A</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque architecto ut laudantium quis at quisquam eos atque sapiente soluta!
+              </p>
+            </div>
+          </TimelineContent>
 
 
-    </Timeline>
+        </TimelineItem>
+
+
+
+
+
+      </Timeline>
 
     </div>
   );
