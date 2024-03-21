@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center font-semibold h-screen ">
+    <div className="flex flex-col items-center font-semibold mb-40">
       <div className="m-10 md:m-[75px]">
         <img src={logo} alt="" className="h-36 md:h-56 w-36 md:w-56" />
       </div>

@@ -12,26 +12,27 @@ import Gallery from './pages/Gallery';
 import JoinUs from './pages/JoinUs';
 import Founding from './pages/Founding';
 import BoardMembers from './pages/BoardMembers';
+import Footer from './pages/Footer';
 
 function App() {
   return (
     <Router>
       <div className="App">
-      
+
         <Home />
         <About />
         <Department />
         <Events />
-        <Team /> 
+        <Team />
         <Routes>
           <Route exact path='/ffcs21' element={<FFCS21 />} />
           <Route exact path='/ffcs22' element={<FFCS22 />} />
           <Route exact path='/founding-members' element={<Founding />} />
-          <Route exact path='/board-members' element={<BoardMembers/>} />
+          <Route exact path='/board-members' element={<BoardMembers />} />
         </Routes>
-        {/* <Gallery/>
-        <JoinUs/> */}
-        
+        <Gallery />
+        <JoinUs />
+        <Footer />
       </div>
     </Router>
   );
