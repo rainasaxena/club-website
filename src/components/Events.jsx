@@ -13,7 +13,7 @@ const bubbleStyle = {
   //   width:'5px',
   padding: '10px', // Adjust the padding to control the size of the bubble
   borderRadius: '8px', // Add rounded corners for a bubble effect
-  color: '#fff', // Text color inside the bubble
+  color: '##0D232E', // Text color inside the bubble
 };
 
 const Events = () => {
